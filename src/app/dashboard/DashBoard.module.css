@@ -1,0 +1,141 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.maindiv {
+  display: flex;
+  gap: 10px;
+  margin-top: 100px;
+  padding-left: 140px;
+}
+
+.heading h2 {
+  margin-top: 50px;
+}
+.heading h5 {
+  padding: 0;
+  margin: 0;
+  font-size: 20px;
+  font-weight: 600;
+}
+.innerdiv {
+  background-color: pink;
+  width: 300px;
+  height: 120px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px;
+}
+.innerdiv5 {
+  background-color: rgb(235, 235, 235);
+  width: 300px;
+  height: 120px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.Dollar {
+  height: 34px;
+  width: 36px;
+  border-radius: 5px;
+  background-color: rgb(255, 115, 0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.innerDollar {
+  height: 20px;
+  width: 20px;
+  border: solid 1px white;
+  border-radius: 50%;
+}
+
+.Cart1 {
+  height: 34px;
+  width: 36px;
+  border-radius: 5px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.innercart1 {
+  height: 20px;
+  width: 20px;
+  border: 1px solid white;
+  border-radius: 50%;
+}
+.innerprofile1 {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+}
+.percentage {
+  display: flex;
+  align-items: end;
+  flex-direction: column;
+}
+.percentage p {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: end;
+  flex-direction: column;
+  align-items: end;
+  color: green;
+}
+
+.paragraph p {
+  color: rgb(0, 0, 0);
+}
+.percentage1 p {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: end;
+  flex-direction: column;
+  align-items: end;
+  color: rgba(255, 0, 0, 0.699);
+}
+.paragraphs p {
+  color: rgba(0, 0, 0, 0.507);
+}
+
+.paragraph1 p {
+  color: rgba(0, 0, 0, 0.507);
+}
+
+.percentage2 p {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: end;
+  flex-direction: column;
+  align-items: end;
+}
+
+.para {
+  color: green;
+}
+
+.paragraph {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.innerdiv1 {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  justify-content: space-between;
+}
+
+
+/* ["#ff7300", "#ff9900", "#ffa61f99", "#ffa51f41"], */
