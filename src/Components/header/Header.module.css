@@ -1,0 +1,125 @@
+/* Header.module.css */
+
+.headerWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 30px;
+  background-color: #555;
+  color: white;
+}
+
+.logo {
+  height: 21px;
+  width: 54.6px;
+}
+
+.icon {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}
+
+.navList {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+}
+
+.navList li {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 14px;
+  font-weight: 500;
+  color: white;
+}
+
+.icons img {
+  display: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.img1 {
+  width: 20px;
+  height: 20px;
+}
+
+.img3 {
+  width: 18px; 
+   height: 20px; 
+}
+/* Add to Header.module.css */
+
+.dropdown {
+  position: relative;
+}
+
+
+.dropdown1 {
+  position: relative;
+}
+
+
+.dropdownMenu1 {
+  position: absolute;
+  top: 100%;
+  left: -200px;
+  background-color: #444;
+  list-style: none;
+  padding: 10px;
+  margin: 0;
+  display: none;
+  min-width: 150px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  z-index: 100;
+}
+.dropdownMenu1 li {
+  padding: 8px 12px;
+  color: white;
+  cursor: pointer;
+  white-space: nowrap;
+}
+.dropdownMenu1 li:hover {
+  background-color: #666;
+}
+
+.dropdown1:hover .dropdownMenu1 {
+  display: block;
+}
+
+.dropdownMenu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #444;
+  list-style: none;
+  padding: 10px;
+  margin: 0;
+  display: none;
+  min-width: 150px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  z-index: 100;
+}
+
+.dropdownMenu li {
+  padding: 8px 12px;
+  color: white;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.dropdownMenu li:hover {
+  background-color: #666;
+}
+
+.dropdown:hover .dropdownMenu {
+  display: block;
+}
