@@ -1,0 +1,79 @@
+.stepContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+}
+
+.formGroup {
+  display: flex;
+  flex-direction: column;
+}
+
+.formGroup label {
+  font-weight: 500;
+  margin-bottom: 8px;
+  color: #333;
+}
+
+.formGroup input {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+.formGroup input:focus {
+  border-color: #ff7f24;
+}
+
+.buttonGroup {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.buttonGroup button {
+  flex: 1;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.buttonGroup button:first-child {
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+.buttonGroup button:first-child:hover {
+  background-color: #e0e0e0;
+}
+
+.buttonGroup button:last-child {
+  background-color: #ff7f24;
+  color: white;
+}
+
+.buttonGroup button:last-child:hover {
+  background-color: #e56e20;
+}
+
+.selectRole {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+  outline: none;
+  width: 100%;
+  margin-top: 10px;
+  transition: 2s ease-in;
+}
+.selectRole:focus {
+  border-color: #ff7f24;
+}

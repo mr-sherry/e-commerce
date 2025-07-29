@@ -1,0 +1,67 @@
+.container {
+  background: white;
+  padding: 1rem;
+  border-radius: 12px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.05);
+  margin-top: 1.5rem;
+}
+
+.title {
+  font-size: 1.125rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.tableWrapper {
+  overflow-x: auto;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.875rem;
+}
+
+.table th {
+  text-align: left;
+  padding-bottom: 0.5rem;
+  color: #6b7280;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.table td {
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #f3f4f6;
+}
+
+.badge {
+  padding: 0.25rem 0.5rem;
+  border-radius: 999px;
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: white;
+}
+
+.green {
+  background-color: #16a34a;
+}
+
+.orange {
+  background-color: #fb923c;
+}
+
+.pending {
+  background-color: #60a5fa;
+}
+
+.complete {
+  background-color: #22c55e;
+}
+
+.cancel {
+  background-color: #ef4444;
+}
+
+.hold {
+  background-color: #facc15;
+}
