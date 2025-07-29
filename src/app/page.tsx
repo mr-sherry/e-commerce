@@ -1,6 +1,6 @@
 import React from "react";
 
-function page() {
+function Page() {
   return (
     <div className="flex items-center justify-center h-screen">
       <h1 className="text-4xl font-bold">Welcome to the E-commerce App</h1>
@@ -8,4 +8,4 @@ function page() {
   );
 }
 
-export default page;
+export default Page;
